@@ -139,4 +139,28 @@
   font-weight: 300;
 }
 
+.footer {
+  background-color: #353535;
+  padding: 25px;
+}
+.footer__logo {
+  font-size: 24px;
+  font-family: "Shrikhand", sans-serif;
+  color: white;
+  margin-bottom: 15px;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer li {
+  margin-bottom: 10px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer__icons {
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

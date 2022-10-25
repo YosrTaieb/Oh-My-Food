@@ -165,3 +165,32 @@ $tertiary-color: #99e2d0;
     font-weight: 300;
   }
 }
+
+// FOOTER
+
+.footer {
+  background-color: #353535;
+  padding: 25px;
+
+  &__logo {
+    font-size: 24px;
+    font-family: "Shrikhand", sans-serif;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  &__icons {
+    margin-right: 10px;
+  }
+}
