@@ -62,4 +62,46 @@
   border-radius: 20px;
 }
 
+.tutorial {
+  padding: 30px;
+}
+.tutorial__title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.tutorial__btn {
+  display: flex;
+  width: 350px;
+  padding: 25px;
+  background-color: #fbfbfb;
+  box-shadow: 0px 2px 12px rgba(174, 174, 174, 0.25);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.tutorial__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #9356dc;
+  border-radius: 100%;
+}
+.tutorial__icon {
+  color: grey;
+  margin-right: 15px;
+}
+.tutorial__icon :hover {
+  color: #9356dc;
+}
+.tutorial__subtitle {
+  color: gray;
+}
+
 /*# sourceMappingURL=style.css.map */
