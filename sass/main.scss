@@ -120,15 +120,9 @@ $tertiary-color: #99e2d0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 50px;
     color: #fff;
-    padding: 10px;
-    background: linear-gradient(
-      176deg,
-      rgba(255, 121, 218, 1) 0%,
-      rgba(147, 86, 220, 1) 65%
-    );
+    padding: 15px;
+    background: linear-gradient(#ff79da, #9356dc);
     border-radius: 20px;
     transform: scale(1);
     transition: transform 0.4s;
@@ -151,7 +145,8 @@ $tertiary-color: #99e2d0;
   }
   &__btn {
     display: flex;
-    width: 350px;
+    align-items: center;
+    position: relative;
     padding: 25px;
     background-color: #fbfbfb;
     box-shadow: 0px 2px 12px rgb(174 174 174 / 25%);
@@ -166,7 +161,7 @@ $tertiary-color: #99e2d0;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 20px;
+    left: -10px;
     width: 20px;
     height: 20px;
     font-size: 12px;
@@ -184,6 +179,14 @@ $tertiary-color: #99e2d0;
   }
 }
 
+@media screen and (min-width: 750px) {
+  .tutorial__btn--container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
 // RESTAURANTS
 .restaurants {
   padding: 55px 20px 45px 20px;
@@ -196,7 +199,7 @@ $tertiary-color: #99e2d0;
 }
 .card {
   position: relative;
-  height: 250px;
+  // height: 250px;
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 2px 2px 10px #c4c3c0;
@@ -234,9 +237,24 @@ $tertiary-color: #99e2d0;
   font-size: 20px;
   color: grey;
 }
+
 .heart:hover {
-  background: linear-gradient(#ff79da, #9356dc);
-  animation: fill 1s ease-out;
+  color: $secondary-color;
+  // background: linear-gradient(#ff79da, #9356dc);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  transition: all 1s ease-out;
+}
+
+@media screen and (min-width: 750px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 // FOOTER
@@ -264,6 +282,8 @@ $tertiary-color: #99e2d0;
     text-decoration: none;
   }
   &__icons {
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
   }
 }
@@ -287,7 +307,8 @@ $tertiary-color: #99e2d0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
+    width: 95%;
   }
   &__name {
     font-family: "Shrikhand", sans-serif;
@@ -306,13 +327,21 @@ $tertiary-color: #99e2d0;
     position: relative;
     border-radius: 30px 30px 0 0;
     background-color: #f6f6f6;
-    padding: 35px 15px 80px 15px;
+    padding: 35px 20px 80px 20px;
   }
 }
 
 .dishes {
   padding-bottom: 40px;
 }
+
+// @media screen and (min-width: 750px) {
+//   .dishes__container {
+//     display: flex;
+//     justify-content: center;
+//     gap: 30px;
+//   }
+// }
 
 .dish {
   &__type {
@@ -326,7 +355,6 @@ $tertiary-color: #99e2d0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
     width: 100%;
     padding-left: 10px;
     background-color: white;
