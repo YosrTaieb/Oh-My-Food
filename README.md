@@ -15,4 +15,4 @@ Ohmyfood! est une jeune startup voulant s'imposer sur le marché de la restaurat
 
 * Vous pouvez retrouver le [brief complet ici](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/DW_P3/Brief%20cre%CC%81atif%20-%20Ohmyfood!.pdf)
 
-+ Visiter mon site https://yosr-taieb.com
+Visiter mon site https://yosr-taieb.com
