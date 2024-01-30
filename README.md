@@ -5,8 +5,6 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-![Alt text](/ohmyfoodCover.webp?raw=true "Cover Ohmyfood OpenClassrooms")
-
 ## Contexte :
 Ohmyfood! est une jeune startup voulant s'imposer sur le marché de la restauration. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.
 
